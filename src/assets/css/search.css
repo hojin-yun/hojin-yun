@@ -1,0 +1,92 @@
+@charset "utf-8";
+.searchTotalArea{padding:0 0 20px;}
+
+
+.patentState{display:inline-block; border-radius:40px; border:1px solid #000; background:#ffffff; line-height:18px; height:18px; padding:0 10px; color:#000; font-size:12px; margin-right:10px;}
+.result-wrap{margin-top:0;}
+.result-wrap .cm-tab-list li{width:20%;}
+.result-wrap .area-title{padding:70px 0 50px;}
+.result-wrap .srch-area{width:620px; height:54px; margin:0 auto 10px; font-size:0;border:3px solid #000000; border-radius:10px; padding:0 10px;}
+.result-wrap .srch-area .inp-slct,
+.result-wrap .srch-area .inp-txt{display:inline-block;vertical-align:top;height:100%;line-height:100%;font-size:15px; border:0;}
+.result-wrap .srch-area .inp-slct{width:25%;margin:0;padding-left:20px; }
+.result-wrap .srch-area .inp-txt{width:65%;padding:0 10px;}
+.result-wrap .srch-area .btn-srch{width:10%; height:100%; background:transparent; border:none;}
+.result-wrap .srch-area .btn-srch:after{content:'';display:inline-block; margin-top:10px; width:25px;height:24px;background:url('~@/assets/img/search/searchIco.png') 0 0 no-repeat;}
+.result-wrap .research{width:620px; margin:0 auto;}
+.result-wrap .research label{font-size:14px; color:#777; margin-left:0; font-weight:400; vertical-align:middle; margin-top:4px;}
+.result-wrap .list-info{margin-bottom:30px; margin-top:20px; font-size:20px;color:#000;text-align:center; line-height:120%;}
+.result-wrap .list-info .num{color:#f0940a;}
+.result-wrap .search_nodata .num{color:#f0940a;}
+
+
+.result-wrap .result-tab {display:table;width:100%}
+.result-wrap .result-tab > a {display:table-cell;width:1%;text-align:center;; border:1px solid #ddd;background:#f6f6f6;color:#888;font-weight:400;padding:10px 5px ;position:relative; font-size:14px;}
+.result-wrap .result-tab > a + a {border-left:0}
+.result-wrap .result-tab > a.active {background:#fff;border-bottom-color:#fff; color:#007dcd; font-weight:500; border-top:2px solid #007dcd}
+.result-wrap .result-tab > a.active:before {opacity:1}
+
+.resultTitleArea{margin:50px 0 10px; overflow:hidden;}
+.result-wrap .result-tit {float:left;}
+.result-wrap .result-tit > * {display:inline-block;vertical-align:middle}
+.result-wrap .result-tit strong {font-size:20px; color:#333; font-weight:500}
+.result-wrap .result-tit span {color:#299ae0; margin-left:10px; font-size:16px;}
+
+
+.result-list {border-top:2px solid #000}
+.result-list > div {position:relative;border-bottom:1px solid #ddd;padding:0 10px}
+
+
+.srchBtnArea{text-align:right; padding-top:0;}
+.btnType01{display:inline-block; line-height:100%;}
+.btnType01 span{color:#299ae0; font-size:13px; padding-right:14px; border-bottom:1px solid #299ae0; background:url('~@/assets/img/search/btnIco.png') right 6px no-repeat;}
+
+
+.searchResultList01{overflow:hidden; position:relative; border-top:1px solid #ececec; padding:20px 0;}
+.searchResultList01:first-child{border-top:none;}
+.searchResultList01 .imgArea01{float: left; width:175px; height:120px; margin-right:20px; overflow:hidden; border:1px solid #e6e6e6;}
+.searchResultList01 .imgArea01 img{width:100%; height:100%;}
+.searchResultListTxt{width: 100%;}
+.searchResultListTxt h3{font-size:18px; padding-bottom:5px; color:#242424; font-weight:400; line-height:140%; overflow:hidden; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow:ellipsis;}
+.searchResultListTxt span{font-size:13px; display:block; color:#a4a4a4; margin-bottom:8px; line-height:14px; overflow:hidden;}
+.searchResultListTxt span em{padding-left:10px; margin-left:10px; border-left:1px solid #e0e0e0;}
+.searchResultListTxt p{font-size:14px; color:#646464; line-height:22px; overflow:hidden; height:42px;}
+
+.searchResultListNo .searchResultListTxt{padding:0; float: none;  width: 100%;  margin-left: 0;  padding-left: 0;}
+
+.searchResultTxtTop{overflow:hidden; margin-bottom:10px;}
+.srchLocation{float:left; width:80%;}
+.srchLocation li{float:left; padding-left:15px; margin-left:10px; background:url('~@/assets/img/search/srchLocationIco.png') 0 2px no-repeat; color:#888; font-size:13px;}
+.srchLocation li:first-child{padding-left:0; margin-left:0; background:none;}
+.srchDate{float:right; font-size:13px; color:#666;}
+.fileWrap{overflow:hidden; margin-top:10px;}
+.fileWrap li{float:left; width:50%;}
+.fileWrap li a{padding-right:20px; font-size:13px; color:#888; text-decoration:underline;}
+
+.patentinfo{background:#f9f9f9; padding:20px 40px; border-radius:10px; margin:12px 0; overflow:hidden; font-size:14px;}
+.patentinfo ul{overflow:hidden;}
+.patentinfo li{float:left; width:33.3%;}
+.patentinfo li dl{padding:0 20px; overflow:hidden;}
+.patentinfo li dt{float:left;}
+.patentinfo li dd{float:left; margin-left:10px; padding-left:10px; position:relative; font-weight:400; color:#7d7d7d;white-space: nowrap;overflow: hidden;text-overflow: ellipsis;width: 70%;}
+.patentinfo li dd:after{content:''; display:block; position:absolute; left:0; top:3px; width:1px; height:12px; background:#aaa;}
+
+@media screen and (max-width:1024px) {
+.patentinfo li dt{float:none;}
+.patentinfo li dd{float:none; margin:0; margin-top:5px; padding-left:15px;width: 90%;} 
+.patentinfo li dd:after{content:''; display:block; position:absolute; left:0; top:8px; width:5px; height:1px; background:#aaa;}
+}
+
+@media screen and (max-width:992px) {
+.patentinfo{padding:10px 20px;}
+.patentinfo li dl{padding:0;}
+.patentinfo li{float:none; width:100%; padding:10px 0;}
+}
+
+
+@media screen and (max-width:640px) {
+.result-wrap .srch-area{width:100%;}
+.srchLocation{width:100%; float:none;}
+.srchDate{width:100%; float:none;}
+.result-wrap .result-tit{float:none; margin-bottom:10px;}
+}
